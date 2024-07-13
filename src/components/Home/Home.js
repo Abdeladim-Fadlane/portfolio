@@ -9,6 +9,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { FaEnvelope } from 'react-icons/fa';
 
 function Home2() {
   return (
@@ -16,20 +17,20 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1 style={{ fontSize: "2.4em" }}>
             I'M
               <strong className="main-name"> Fadlane Abdeladim</strong>
             </h1>
-            <div style={{ padding: 50, textAlign: "left" }}>
+            <div style={{ padding: 20, textAlign: "left" }}>
                 <Type />
               </div>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
+            I am a passionate software developer with over Two years of experience specializing in 
+            <b className="purple"> software engineering & web development </b>
+            <br />
+              <br />During my academic journey, I utilized languages such as  
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> C++,C Javascript and Python. </b>
               </i>
               <br />
               <br />
@@ -38,23 +39,11 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Blockchain.
+                  Devops engineering.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -72,7 +61,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Abdeladim-Fadlane"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -82,17 +71,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/abdeladim-fadlane/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -102,12 +81,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                   href="mailto:abdofadlane128@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <FaEnvelope />
                 </a>
               </li>
             </ul>
