@@ -5,11 +5,10 @@ import Tilt from "react-parallax-tilt";
 import Type from "./Type";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaEnvelope } from 'react-icons/fa';
+import { SiLeetcode } from "react-icons/si";
 
 function Home2() {
   return (
@@ -81,7 +80,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                   href="mailto:abdofadlane128@gmail.com"
+                  href="mailto:abdofadlane128@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -89,9 +88,20 @@ function Home2() {
                   <FaEnvelope />
                 </a>
               </li>
+              <li className="social-icons">
+                <a
+                  href="https://leetcode.com/u/afadlane/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <SiLeetcode />
+                </a>
+              </li>
             </ul>
           </Col>
         </Row>
+        
       </Container>
     </Container>
   );
